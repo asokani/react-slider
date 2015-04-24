@@ -1,0 +1,46 @@
+body {
+  background: #1ab5f5;
+}
+#react-slider {
+  .bar {
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #0066bb;
+    -moz-box-shadow: inset 0 -1px 0 #9be1ff;
+    -webkit-box-shadow: inset 0 -1px 0 #9be1ff;
+    box-shadow: inset 0 -1px 0 #9be1ff;
+    background-image: -moz-linear-gradient(bottom, #0068bf 0%, #0068bf 35.3%, #005196 100%);
+    background-image: -o-linear-gradient(bottom, #0068bf 0%, #0068bf 35.3%, #005196 100%);
+    background-image: -webkit-linear-gradient(bottom, #0068bf 0%, #0068bf 35.3%, #005196 100%);
+    background-image: linear-gradient(bottom, #0068bf 0%, #0068bf 35.3%, #005196 100%);
+
+    .hightlight {
+      width: 0;
+      background: white;
+    }
+  }
+  .handle {
+    cursor: -webkit-grab;
+    cursor: grab;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-style: solid;
+    border-color: #005faf;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #f3f3f3;
+    -moz-box-shadow: 0 0 20px rgba(0,96,176,.3);
+    -webkit-box-shadow: 0 0 20px rgba(0,96,176,.3);
+    box-shadow: 0 0 20px rgba(0,96,176,.3);
+    background-image: -moz-linear-gradient(bottom, #eaeaea 0%, #fff 100%);
+    background-image: -o-linear-gradient(bottom, #eaeaea 0%, #fff 100%);
+    background-image: -webkit-linear-gradient(bottom, #eaeaea 0%, #fff 100%);
+    background-image: linear-gradient(bottom, #eaeaea 0%, #fff 100%);
+  }
+}

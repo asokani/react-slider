@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "webpack-dev-server --hot --progress --colors ",
-    "-": "--debug --devtool source-map",
-    "build": "webpack --progress --colors"
+    "start": "webpack-dev-server --config webpack-development.config.js --hot --progress --colors ",
+    "build": "webpack --config webpack-production.config.js --progress --colors"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +25,7 @@
     "node-sass": "^2.1.1",
     "object-assign": "^2.0.0",
     "react": "^0.13.1",
+    "react-css": "0.0.2",
     "react-hot-loader": "^1.2.4",
     "sass-loader": "^0.6.0",
     "style-loader": "^0.10.1",
