@@ -14,8 +14,8 @@ body {
     background-image: -o-linear-gradient(bottom, #0068bf 0%, #0068bf 35.3%, #005196 100%);
     background-image: -webkit-linear-gradient(bottom, #0068bf 0%, #0068bf 35.3%, #005196 100%);
     background-image: linear-gradient(bottom, #0068bf 0%, #0068bf 35.3%, #005196 100%);
-
-    .hightlight {
+    overflow: hidden;
+    .highlight {
       width: 0;
       background: white;
     }

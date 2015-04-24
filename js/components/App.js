@@ -1,6 +1,4 @@
 import React from 'react'
-require('../css/index.scss');
-
 
 let App = React.createClass({
     LEFT_BUTTON: 0,
@@ -103,7 +101,4 @@ let App = React.createClass({
     }
 })
 
-const app = document.getElementById('react-slider');
-React.render(<App sliderWidth="600" sliderHeight="20" />, app);
-
-
+export default App

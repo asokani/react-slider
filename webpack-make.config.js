@@ -26,7 +26,7 @@ module.exports = function(options) {
     }
 
     var entry = [
-        "./js/App.js"
+        "./js/main.js"
     ]
 
     if (options.env != "production") {
